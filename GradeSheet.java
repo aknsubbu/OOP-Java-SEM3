@@ -3,9 +3,14 @@ import java.util.Scanner;
 public class GradeSheet {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
-        System.out.print("Enter the student's score: ");
-        int score = scanner.nextInt();
+        int[] marks = new int[5];
+        int score = 0;
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Enter score: -");
+            marks[i] = scanner.nextInt();
+            score += marks[i];
+        }
+        score /= 5;
 
         if (score >= 90) {
             System.out.println("Grade: A");
