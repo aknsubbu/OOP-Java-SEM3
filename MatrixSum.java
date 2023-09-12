@@ -39,5 +39,6 @@ public class MatrixSum {
             }
             System.out.println();
         }
+        scanner.close();
     }
 }

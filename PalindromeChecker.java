@@ -20,5 +20,6 @@ public class PalindromeChecker {
         } else {
             System.out.println(originalNum + " is not a palindrome.");
         }
+        scanner.close();
     }
 }

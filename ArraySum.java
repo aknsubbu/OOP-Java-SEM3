@@ -19,5 +19,6 @@ public class ArraySum {
         }
 
         System.out.println("Sum of all elements in the array: " + sum);
+        scanner.close();
     }
 }

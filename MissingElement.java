@@ -19,5 +19,6 @@ public class MissingElement {
         }
 
         System.out.println("The missing element is: " + total);
+        scanner.close();
     }
 }

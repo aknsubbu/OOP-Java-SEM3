@@ -12,5 +12,6 @@ public class FactorialCalculator {
         }
 
         System.out.println("Factorial of " + num + " is: " + factorial);
+        scanner.close();
     }
 }

@@ -19,5 +19,7 @@ public class PositiveNumberSum {
         }
 
         System.out.println("Sum of positive numbers is: " + sum);
+        scanner.close();
     }
+
 }

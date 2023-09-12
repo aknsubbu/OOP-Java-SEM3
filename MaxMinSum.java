@@ -19,5 +19,6 @@ public class MaxMinSum {
         int max = arr[n - 1];
 
         System.out.println("Sum of minimum and maximum values: " + (min + max));
+        scanner.close();
     }
 }
